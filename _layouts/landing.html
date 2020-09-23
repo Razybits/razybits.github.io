@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="robots" content="noydir, noodp">
+    <meta name="author" content="ricardopereira.eu ® 2020. All rights Reserved">
+    <meta name="keywords" content="razybits, envato, apple, appstore, app, ios, iphone">
+    <link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
+    <link rel="canonical" href="{{ site.url }}">
+    <title>{{ page.title }}</title>
+    <meta property="og:image"  content="{{ site.url }}/assets/images/thumbnail.jpg">
+    <meta property="og:title"  content="{{ page.title }}" />
+    <meta property="og:description" content="Apps in no time.">
+    <meta property="og:url"    content="{{ site.url }}"/>
+    <meta property="og:type"   content="website" />
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Razybits">
+    <meta name="theme-color" content="#1444DE" />
+    <meta name="twitter:card" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="Apps in no time.">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/thumbnail.jpg">
+    <meta name="twitter:site" content="@razybits" />
+    <meta name="twitter:creator" content="@razybits" />
+
+    <link rel="stylesheet" href="{{ site.url }}/css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero__container">
+        <a href="/"><img alt="Razybits" src="{{ site.url }}/assets/images/razybits-logo-white.svg" class="logo"></a>
+        {{ content }}
+        <a class="hero__appstore-button" href="https://itunes.apple.com/pt/app/money-the-fastest-expense-tracker/id1076339783?l=en" target="_blank">
+          <img alt="Download on the App Store" src="{{ site.url }}/assets/images/download-app-store.svg">
+        </a>
+      </div>
+    </section>
+    <section class="phone-container">
+      <img class="phone" alt="Money app" src="{{ site.url }}/assets/images/money-screen.jpeg">
+      <div class="phone-frame"></div>
+    </section>
+    <footer>
+      <div>
+        <!--<a class="footer__link" href="{{ site.url }}/privacy">Privacy policy</a>-->
+        <!--<a class="footer__link" href="{{ site.url }}/terms">Terms and conditions</a>-->
+        <a class="footer__link" href="mailto:support@razybits.com">Contact us</a>
+        <a class="footer__link" href="https://twitter.com/razybits">Twitter</a>
+      </div>
+      <br>
+      <p>made with ♥ by <a class="footer__link" href="https://www.ricardopereira.eu/" target="_blank">Ricardo Pereira</a></p>
+    </footer>
+  </body>
+</html>

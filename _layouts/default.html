@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="robots" content="noydir, noodp">
+    <meta name="author" content="ricardopereira.eu ® 2020. All rights Reserved">
+    <meta name="keywords" content="razybits, envato, apple, appstore, app, ios, iphone">
+    <link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
+    <link rel="canonical" href="{{ site.url }}">
+    <title>{{ page.title }}</title>
+    <meta property="og:image"  content="{{ site.url }}/assets/images/thumbnail.jpg">
+    <meta property="og:title"  content="{{ page.title }}" />
+    <meta property="og:url"    content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:type"   content="website" />
+    <meta name="twitter:card" content="{{ page.title }}" />
+    <meta name="twitter:site" content="@razybits" />
+    <meta name="twitter:creator" content="@razybits" />
+
+    <link rel="stylesheet" href="{{ site.url }}/css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+  </head>
+  <body>
+    <section class="hero hero--clean">
+      <div class="hero__container">
+        <a href="{{ site.url }}"><img alt="Razybits" src="{{ site.url }}/assets/images/razybits-logo.svg" class="logo"></a>
+      </div>
+    </section>
+    <section class="text-container">
+      {{ content }}
+    </section>
+    <footer>
+      <div>
+        <!--<a class="footer__link" href="{{ site.url }}/privacy">Privacy policy</a>-->
+        <!--<a class="footer__link" href="{{ site.url }}/terms">Terms and conditions</a>-->
+        <a class="footer__link" href="mailto:hello@razybits.com">Contact us</a>
+      </div>
+      <br>
+      <p>made with ♥ by <a class="footer__link" href="https://www.ricardopereira.eu/" target="_blank">Ricardo Pereira</a></p>
+    </footer>
+  </body>
+</html>
